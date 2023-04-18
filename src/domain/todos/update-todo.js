@@ -1,4 +1,4 @@
-const { findTodo } = require('./find-todo');
+const { findTodo } = require("./find-todo");
 
 const updateTodo = (user, id, payload) => {
   const { deadline, title } = payload;
@@ -8,8 +8,8 @@ const updateTodo = (user, id, payload) => {
   todo.deadline = new Date(deadline);
   todo.title = title;
 
-  return todo
-}
+  return todo;
+};
 
 module.exports = {
   updateTodo,

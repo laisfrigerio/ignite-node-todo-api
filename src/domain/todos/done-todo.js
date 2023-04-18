@@ -1,4 +1,4 @@
-const { findTodo } = require('./find-todo');
+const { findTodo } = require("./find-todo");
 
 const doneTodo = (user, id) => {
   const todo = findTodo(user, id);
@@ -6,8 +6,8 @@ const doneTodo = (user, id) => {
   todo.done = true;
 
   return todo;
-}
-  
+};
+
 module.exports = {
   doneTodo,
 };
