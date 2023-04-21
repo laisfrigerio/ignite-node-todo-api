@@ -15,7 +15,14 @@ We develop this project with the following docker version: `20.10.22`
 
 ## :pencil: Features
 
-- :ballot_box_with_check: Create an account
+- :ballot_box_with_check: Create an user
+- :ballot_box_with_check: Get all users
+- :ballot_box_with_check: Get all todos by user
+- :ballot_box_with_check: Add a new todo for an user
+- :ballot_box_with_check: Edit todo from an user
+- :ballot_box_with_check: Make a todo done
+- :ballot_box_with_check: Delete a todo done
+- :ballot_box_with_check: Activate a PRO plan for an user
 
 ## :gem: Run application
 
